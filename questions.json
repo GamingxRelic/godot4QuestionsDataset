@@ -1,0 +1,1434 @@
+{
+    "godot 4 code syntax": {
+        "questions": [
+            {
+                "question": "What is the correct syntax to declare a variable in GDScript in Godot 4?",
+                "options": "A) var variable_name = value\nB) variable_name = value\nC) int variable_name = value\nD) declare variable_name = value",
+                "answer": "A"
+            },
+            {
+                "question": "How do you define a function in GDScript in Godot 4?",
+                "options": "A) function my_function() {}\nB) def my_function():\nC) func my_function():\nD) create my_function():",
+                "answer": "C"
+            },
+            {
+                "question": "Which keyword is used to access the base class in GDScript in Godot 4?",
+                "options": "A) super\nB) parent\nC) base\nD) extend",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to create a new instance of a class in GDScript in Godot 4?",
+                "options": "A) new ClassName()\nB) ClassName.new()\nC) ClassName()\nD) create ClassName()",
+                "answer": "B"
+            },
+            {
+                "question": "How do you comment a single line in GDScript in Godot 4?",
+                "options": "A) // This is a comment\nB) # This is a comment\nC) -- This is a comment\nD) /* This is a comment */",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to perform a null check in GDScript in Godot 4?",
+                "options": "A) if variable != null\nB) if variable is not null\nC) if isnt variable\nD) if variable",
+                "answer": "A"
+            },
+            {
+                "question": "Which operator is used for string concatenation in GDScript in Godot 4?",
+                "options": "A) +\nB) &\nC) .\nD) #",
+                "answer": "A"
+            },
+            {
+                "question": "How do you declare a constant in GDScript in Godot 4?",
+                "options": "A) const NAME = value\nB) constant NAME = value\nC) NAME = const(value)\nD) define NAME = value",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct syntax to emit a signal in GDScript in Godot 4?",
+                "options": "A) emit_signal('signal_name')\nB) signal.emit()\nC) dispatch('signal_name')\nD) trigger('signal_name')",
+                "answer": "B"
+            },
+            {
+                "question": "How do you access a global script variable in GDScript in Godot 4?",
+                "options": "A) global.get(\"variable_name\")\nB) $variable_name\nC) Global.variable_name\nD) get_global('variable_name')",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct way to handle errors in GDScript in Godot 4?",
+                "options": "A) try {} catch() {}\nB) try: except:\nC) do {} error:\nD) assert()",
+                "answer": "D"
+            },
+            {
+                "question": "What is the correct way to declare an array in GDScript in Godot 4?",
+                "options": "A) array[]\nB) []\nC) Array()\nD) var array = []",
+                "answer": "D"
+            },
+            {
+                "question": "How do you perform type casting in GDScript in Godot 4?",
+                "options": "A) as_type(variable)\nB) variable as type\nC) cast(type, variable)\nD) type(variable)",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct syntax to connect a signal in GDScript in Godot 4?",
+                "options": "A) connect('signal_name', target)\nB) 'signal_name'.connect(target, 'method')\nC) signal('signal_name').connect(target, 'method')\nD) target.connect('signal_name', 'method')",
+                "answer": "A"
+            },
+            {
+                "question": "How do you declare a dictionary in GDScript in Godot 4?",
+                "options": "A) dict = {}\nB) dictionary = {}\nC) {} = dict()\nD) var dict = {}",
+                "answer": "D"
+            },
+            {
+                "question": "What is the correct way to iterate over elements in an array in GDScript in Godot 4?",
+                "options": "A) for element in array:\nB) foreach (element in array)\nC) array.each do |element|\nD) loop element in array:",
+                "answer": "A"
+            },
+            {
+                "question": "How do you check if a dictionary has a key in GDScript in Godot 4?",
+                "options": "A) dict.find_key(key)\nB) dict.contains(key)\nC) key in dict\nD) dict.exists(key)",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct syntax to define an enumeration in GDScript in Godot 4?",
+                "options": "A) enum Name {KEY1, KEY2}\nB) enum {KEY1, KEY2}\nC) enumeration {KEY1: 1, KEY2: 2}\nD) enum Name {KEY1: 1, KEY2: 2}",
+                "answer": "D"
+            },
+            {
+                "question": "How do you access a node in the scene tree by its path in GDScript in Godot 4?",
+                "options": "A) get_node('path/to/node')\nB) find_node('path/to/node')\nC) node_at('path/to/node')\nD) access_node('path/to/node')",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to declare a signal in GDScript in Godot 4?",
+                "options": "A) signal my_signal\nB) create signal my_signal\nC) define signal my_signal\nD) event my_signal",
+                "answer": "A"
+            },
+            {
+                "question": "How do you make a variable visible in the Godot editor in GDScript in Godot 4?",
+                "options": "A) @export var variable_name\nB) export var variable_name\nC) expose var variable_name\nD) visible var variable_name",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct syntax to call a parent class's method in GDScript in Godot 4?",
+                "options": "A) super.method_name()\nB) parent.method_name()\nC) base.method_name()\nD) .method_name()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct syntax to use a for loop with a range in GDScript in Godot 4?",
+                "options": "A) for i in range(0, 10):\nB) for (i = 0; i < 10; i++):\nC) for i in 0..10:\nD) loop i from 0 to 10:",
+                "answer": "A"
+            }
+        ]
+    },
+    "godot 4 code explanation": {
+        "questions": [
+            {
+                "question": "What is the primary scripting language used in Godot 4?",
+                "options": "A) JavaScript, B) GDScript, C) Python, D) C#",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, how do you print a debug message to the output?",
+                "options": "A) print_debug(), B) debug(), C) print(), D) log()",
+                "answer": "C"
+            },
+            {
+                "question": "Which function is called when a node enters the scene tree in Godot 4?",
+                "options": "A) _ready(), B) _start(), C) _enter(), D) _init()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to declare a signal in GDScript in Godot 4?",
+                "options": "A) signal my_signal, B) var signal = 'my_signal', C) emit_signal('my_signal'), D) Signal my_signal",
+                "answer": "A"
+            },
+            {
+                "question": "How do you instantiate a scene from a script in Godot 4?",
+                "options": "A) load('res://path_to_scene.tscn').instance(), B) new('res://path_to_scene.tscn'), C) Instance('res://path_to_scene.tscn'), D) Scene('res://path_to_scene.tscn').new()",
+                "answer": "A"
+            },
+            {
+                "question": "What keyword is used to expose a variable to the Godot editor and make it adjustable in the inspector?",
+                "options": "A) public, B) var, C) @export, D) global",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct way to declare a class that extends another class in GDScript in Godot 4?",
+                "options": "A) extends Node, B) extend Node as MyNode, C) class MyNode : Node, D) Node -> MyNode",
+                "answer": "A"
+            },
+            {
+                "question": "How do you perform a safe cast in GDScript in Godot 4?",
+                "options": "A) as_cast(Node), B) cast(Node), C) Node as Type, D) Type(Node)",
+                "answer": "C"
+            },
+            {
+                "question": "What function is used to handle input events in Godot 4?",
+                "options": "A) _input(event), B) _event(input), C) on_input(event), D) handle_input(event)",
+                "answer": "A"
+            },
+            {
+                "question": "How do you create a new Vector2 in GDScript in Godot 4?",
+                "options": "A) Vector2.new(x, y), B) Vector2(x, y), C) new Vector2(x, y), D) create Vector2(x, y)",
+                "answer": "B"
+            },
+            {
+                "question": "Which method is called automatically when a node is removed from the scene tree in Godot 4?",
+                "options": "A) _exit_tree(), B) _remove(), C) _delete(), D) _end()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you access a global script variable in GDScript in Godot 4?",
+                "options": "A) Global.variable, B) $Global.variable, C) find_global(variable), D) get_global('variable')",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to perform a null check in GDScript in Godot 4?",
+                "options": "A) if var != null, B) if var is not null, C) if not var, D) if var",
+                "answer": "A"
+            },
+            {
+                "question": "How do you declare an array in GDScript in Godot 4?",
+                "options": "A) var my_array = Array(), B) var my_array = [], C) array my_array = new Array(), D) my_array = []",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to call a parent class's method in GDScript in Godot 4?",
+                "options": "A) super()._method(), B) parent()._method(), C) ._method(), D) .method()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you check if a node has a specific group in Godot 4?",
+                "options": "A) node.is_in_group('group_name'), B) has_group('group_name'), C) in_group('group_name'), D) group_exists('group_name')",
+                "answer": "A"
+            },
+            {
+                "question": "What method is used to pause the game in Godot 4?",
+                "options": "A) get_tree().paused = true, B) get_tree().pause(), C) pause_game(), D) Game.pause()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you load a font resource in GDScript in Godot 4?",
+                "options": "A) Font.load('res://path_to_font.tres'), B) load('res://path_to_font.tres') as Font, C) ResourceLoader.load('res://path_to_font.tres'), D) load_font('res://path_to_font.tres')",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to define a dictionary in GDScript in Godot 4?",
+                "options": "A) var my_dict = Dictionary(), B) var my_dict = {}, C) dictionary my_dict = new Dictionary(), D) my_dict = {}",
+                "answer": "B"
+            },
+            {
+                "question": "How do you convert a string to an integer in GDScript in Godot 4?",
+                "options": "A) int('123'), B) '123'.to_int(), C) convert('123', int), D) parse_int('123')",
+                "answer": "A"
+            },
+            {
+                "question": "What function is used to schedule a function to be called after a delay in Godot 4?",
+                "options": "A) delay_call('method', delay), B) call_deferred('method'), C) get_tree().create_timer(delay).connect('timeout', self, 'method'), D) yield(get_tree().create_timer(delay), 'timeout')",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct way to access a child node by name in GDScript in Godot 4?",
+                "options": "A) find_node('ChildName'), B) $ChildName, C) child('ChildName'), D) Node.getChild('ChildName')",
+                "answer": "B"
+            }
+        ]
+    },
+    "godot 4 gdscript formatting": {
+        "questions": [
+            {
+                "question": "In GDScript, how do you define a function?",
+                "options": "A) function my_func() B) func my_func(): C) def my_func(): D) function: my_func()",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to declare a variable in GDScript?",
+                "options": "A) var my_var = 10 B) int my_var = 10 C) variable my_var = 10 D) let my_var = 10",
+                "answer": "A"
+            },
+            {
+                "question": "How do you create a new instance of a class in GDScript?",
+                "options": "A) new MyClass() B) MyClass.new() C) MyClass() D) instance MyClass()",
+                "answer": "B"
+            },
+            {
+                "question": "How do you specify the type of a variable in GDScript?",
+                "options": "A) var my_var: int = 10 B) var my_var as int = 10 C) int my_var = 10 D) var my_var = int(10)",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to inherit from another class in GDScript?",
+                "options": "A) class MySubclass < MyClass B) class MySubclass inherits MyClass C) extends MyClass D) class MySubclass : MyClass",
+                "answer": "C"
+            },
+            {
+                "question": "How do you access a parent class's method in GDScript?",
+                "options": "A) super.my_method() B) parent.my_method() C) .my_method() D) ..my_method()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to write an if statement in GDScript?",
+                "options": "A) if (x > 10) { } B) if x > 10: C) if x > 10 then D) if (x > 10):",
+                "answer": "B"
+            },
+            {
+                "question": "How do you write a for loop in GDScript that iterates from 0 to 9?",
+                "options": "A) for i in range(10) { } B) for (i = 0; i < 10; i++) { } C) for i in range(10): D) for i from 0 to 9:",
+                "answer": "C"
+            },
+            {
+                "question": "How do you declare a constant in GDScript?",
+                "options": "A) const MY_CONST = 100 B) constant MY_CONST = 100 C) let MY_CONST = 100 D) final MY_CONST = 100",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to write a switch statement in GDScript?",
+                "options": "A) switch(x) { case 1: break } B) match x: case 1: break C) switch (x) { 1: } D) switch x { case 1: }",
+                "answer": "B"
+            },
+            {
+                "question": "How do you concatenate strings in GDScript?",
+                "options": "A) 'Hello ' + 'World' B) 'Hello '.append('World') C) 'Hello ' & 'World' D) concat('Hello ', 'World')",
+                "answer": "A"
+            },
+            {
+                "question": "How do you write a while loop in GDScript?",
+                "options": "A) while (x < 10) { } B) while x < 10: C) loop while x < 10 D) while x < 10 do:",
+                "answer": "B"
+            },
+            {
+                "question": "How do you check if an array contains a certain element in GDScript?",
+                "options": "A) my_array.contains(element) B) element in my_array C) my_array.has(element) D) contains(my_array, element)",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to update a property every frame in GDScript?",
+                "options": "A) func _process(delta): B) func _update(delta): C) func _frame(delta): D) func _every_frame(delta):",
+                "answer": "A"
+            },
+            {
+                "question": "How do you define an enumeration in GDScript?",
+                "options": "A) enum {VAL1, VAL2, VAL3} B) enum MyEnum {VAL1, VAL2, VAL3} C) define enum {VAL1, VAL2, VAL3} D) enum MyEnum = {VAL1: 1, VAL2: 2, VAL3: 3}",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct syntax to access a node in the scene tree by its path in GDScript?",
+                "options": "A) get_node('Path/To/Node') B) node('Path/To/Node') C) access_node('Path/To/Node') D) find_node('Path/To/Node')",
+                "answer": "A"
+            },
+            {
+                "question": "How do you declare a typed array in GDScript?",
+                "options": "A) var my_array: Array = [] B) var my_array : Array[int] = [] C) var my_array: [int] = [] D) var my_array = []:int",
+                "answer": "B"
+            },
+            {
+                "question": "How do you write an assert statement in GDScript?",
+                "options": "A) assert(x > 10) B) assert x > 10 C) assert(x > 10, 'x must be greater than 10') D) assert x > 10, 'x must be greater than 10'",
+                "answer": "C"
+            }
+        ]
+    },
+    "godot 4 editor questions": {
+        "questions": [
+            {
+                "question": "What is the primary programming language used in Godot 4 for scripting?",
+                "options": "A. Python, B. GDScript, C. C++, D. JavaScript",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, which dock is used to manage the project's assets?",
+                "options": "A. Scene Dock, B. Import Dock, C. FileSystem Dock, D. Node Dock",
+                "answer": "C"
+            },
+            {
+                "question": "Which panel in Godot 4 is used to configure project settings?",
+                "options": "A. Node Panel, B. Inspector Panel, C. Project Settings Panel, D. Debugger Panel",
+                "answer": "C"
+            },
+            {
+                "question": "How can you create a new script in Godot 4?",
+                "options": "A. File > New Script, B. Right-click in FileSystem > New Script, C. Scene > New Script, D. Script > Create New",
+                "answer": "B"
+            },
+            {
+                "question": "What is the purpose of the 'Inspector' in Godot 4?",
+                "options": "A. To debug scripts, B. To manage project files, C. To edit properties of selected objects, D. To write scripts",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, what is the purpose of the 'Output' panel?",
+                "options": "A. To display print statements from scripts, B. To show rendering output, C. To list project assets, D. To configure game settings",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'Node' dock in Godot 4 display?",
+                "options": "A. A list of scripts, B. The scene tree of the current scene, C. Debugging output, D. Shader graphs",
+                "answer": "B"
+            },
+            {
+                "question": "Which shortcut opens the search help feature in Godot 4?",
+                "options": "A. Ctrl + Shift + F, B. Ctrl + Shift + H, C. F1, D. F3",
+                "answer": "C"
+            },
+            {
+                "question": "What is the 'AnimationPlayer' node used for in Godot 4?",
+                "options": "A. To play audio files, B. To create and play animations, C. To control physics simulations, D. To manage game states",
+                "answer": "B"
+            },
+            {
+                "question": "How do you duplicate a node in the scene tree of Godot 4?",
+                "options": "A. Ctrl + D, B. Ctrl + C, Ctrl + V, C. Right-click > Duplicate, D. All of the above",
+                "answer": "D"
+            },
+            {
+                "question": "Which dock in Godot 4 allows you to manage signals connected to nodes?",
+                "options": "A. Node Dock, B. Scene Dock, C. Signals Dock, D. Inspector Dock",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, how can you add a custom theme to the editor?",
+                "options": "A. Project > Project Settings > Interface, B. Editor > Editor Settings > Theme, C. Scene > Theme > Add, D. Tools > Theme > Customize",
+                "answer": "B"
+            },
+            {
+                "question": "What is the purpose of the 'Debugger' panel in Godot 4?",
+                "options": "A. To edit node properties, B. To manage project assets, C. To debug the game while it's running, D. To write and compile scripts",
+                "answer": "C"
+            },
+            {
+                "question": "Which of the following is NOT a valid way to preview a scene in Godot 4?",
+                "options": "A. Pressing F5, B. Pressing F6, C. Using the play button in the top right, D. Right-clicking the scene and selecting 'Preview'",
+                "answer": "D"
+            },
+            {
+                "question": "How do you open the script editor in Godot 4?",
+                "options": "A. Double-click a script in the FileSystem Dock, B. Right-click a node and select 'Edit Script', C. Scene > Open Script Editor, D. A and B",
+                "answer": "D"
+            },
+            {
+                "question": "What is the use of the 'TileMap' node in Godot 4?",
+                "options": "A. To create a map of tiles for level design, B. To manage tilesets, C. To automatically generate paths, D. A and B",
+                "answer": "D"
+            },
+            {
+                "question": "Which panel in Godot 4 allows you to edit the properties of a selected shader?",
+                "options": "A. Node Panel, B. Inspector Panel, C. Shader Panel, D. Material Panel",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, what does the 'Import' dock do?",
+                "options": "A. It allows you to import assets into the project, B. It automatically converts imported assets to Godot's format, C. It lets you configure import settings for each asset, D. All of the above",
+                "answer": "D"
+            },
+            {
+                "question": "Which node in Godot 4 is typically used for handling game logic?",
+                "options": "A. Control, B. Node2D, C. Spatial, D. Node",
+                "answer": "D"
+            },
+            {
+                "question": "What is the purpose of the 'AudioStreamPlayer' node in Godot 4?",
+                "options": "A. To stream audio from external sources, B. To play audio clips, C. To manage audio settings, D. To synchronize audio with animations",
+                "answer": "B"
+            }
+        ]
+    },
+    "godot 4 functions": {
+        "questions": [
+            {
+                "question": "Which function is called every frame in Godot 4, allowing you to update game logic?",
+                "options": "A) _process(delta), B) _ready(), C) A. and D., D) _physics_process(delta)",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, which function is specifically designed to handle physics-related calculations?",
+                "options": "A) _process(delta), B) _physics_process(delta), C) _ready(), D) _enter_tree()",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct function to use for initializing a class in Godot 4?",
+                "options": "A) _start(), B) _init(), C) _create(), D) _construct()",
+                "answer": "B"
+            },
+            {
+                "question": "Which function in Godot 4 is used to respond to input events?",
+                "options": "A) _input(event), B) _handle_input(event), C) _event(), D) _receive_input(event)",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, which function is called when a node changes its visibility?",
+                "options": "A) _visibility_changed(), B) _on_visibility_change(), C) _change_visibility(), D) _toggle_visibility()",
+                "answer": "A"
+            },
+            {
+                "question": "What function is used to manually handle drawing in a CanvasItem based node in Godot 4?",
+                "options": "A) _draw(), B) _paint(), C) _render(), D) _on_draw()",
+                "answer": "A"
+            },
+            {
+                "question": "Which function is called when a timer node times out in Godot 4?",
+                "options": "A) _on_timeout(), B) _timeout(), C) _timer_finished(), D) _time_up()",
+                "answer": "B"
+            },
+            {
+                "question": "Which function is used to handle the GUI input events separately in Godot 4?",
+                "options": "A) _gui_input(event), B) _input(event), C) _handle_gui_event(event), D) _process_gui_input(event)",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, which function is called when the mouse enters the node's area?",
+                "options": "A) _mouse_entered(), B) _on_mouse_enter(), C) _mouse_over(), D) _enter_mouse()",
+                "answer": "A"
+            },
+            {
+                "question": "What function is used to handle the mouse exiting the node's area in Godot 4?",
+                "options": "A) _mouse_exited(), B) _on_mouse_exit(), C) _mouse_leave(), D) _exit_mouse()",
+                "answer": "A"
+            },
+            {
+                "question": "Which function is called when a node receives focus in Godot 4?",
+                "options": "A) _focus_entered(), B) _on_focus(), C) _focused(), D) _enter_focus()",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, which function is used to handle the node losing focus?",
+                "options": "A) _focus_exited(), B) _on_focus_loss(), C) _focus_lost(), D) _exit_focus()",
+                "answer": "A"
+            }
+        ]
+    },
+    "godot 4 2d physics": {
+        "questions": [
+            {
+                "question": "What is the primary node used for 2D physics in Godot 4?",
+                "options": "A) Node2D, B) RigidBody2D, C) Sprite, D) CanvasLayer",
+                "answer": "B"
+            },
+            {
+                "question": "Which node should you use to detect 2D collisions in Godot 4?",
+                "options": "A) CollisionShape2D, B) Area2D, C) CollisionPolygon2D, D) KinematicBody2D",
+                "answer": "B"
+            },
+            {
+                "question": "What is the purpose of the CollisionShape2D node in Godot 4?",
+                "options": "A) To provide a shape for collision detection, B) To render shapes, C) To create physics constraints, D) To emit signals",
+                "answer": "A"
+            },
+            {
+                "question": "How do you apply a constant force to a RigidBody2D in Godot 4?",
+                "options": "A) Using the 'force' property, B) By calling 'apply_impulse()', C) By setting 'linear_velocity', D) By using 'apply_force()'",
+                "answer": "D"
+            },
+            {
+                "question": "What function would you use to move a CharacterBody2D in Godot 4?",
+                "options": "A) move(), B) translate(), C) move_and_slide(), D) position()",
+                "answer": "C"
+            },
+            {
+                "question": "What property of RigidBody2D would you modify to make it ignore gravity in Godot 4?",
+                "options": "A) weight, B) mass, C) gravity_scale, D) gravity_point",
+                "answer": "C"
+            },
+            {
+                "question": "Which function is used to check for area overlap in Area2D in Godot 4?",
+                "options": "A) overlaps_area(), B) get_overlapping_areas(), C) is_overlapping(), D) check_overlap()",
+                "answer": "B"
+            },
+            {
+                "question": "What is the function to detect bodies inside an Area2D in Godot 4?",
+                "options": "A) get_overlapping_bodies(), B) detect_bodies(), C) bodies_inside(), D) has_bodies()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you set the collision layer of a 2D node in Godot 4?",
+                "options": "A) set_layer(), B) layer_mask, C) collision_layer, D) set_collision_layer_value()",
+                "answer": "D"
+            },
+            {
+                "question": "What is the purpose of the 'collision_mask' property in 2D physics nodes in Godot 4?",
+                "options": "A) Defines what layers this node will collide with, B) Masks the node's visibility, C) Sets the node's graphical layer, D) Protects the node from being modified",
+                "answer": "A"
+            },
+            {
+                "question": "What method is used to apply an impulse to a RigidBody2D at a point in Godot 4?",
+                "options": "A) apply_impulse(), B) add_force(), C) push(), D) kick()",
+                "answer": "A"
+            },
+            {
+                "question": "Which property would you adjust to change the friction of a PhysicsMaterial in Godot 4?",
+                "options": "A) roughness, B) bounciness, C) friction, D) density",
+                "answer": "C"
+            },
+            {
+                "question": "What is the role of the 'damping' property in a RigidBody2D in Godot 4?",
+                "options": "A) Controls how quickly it stops moving, B) Adjusts its transparency, C) Changes its color, D) Modifies its size",
+                "answer": "A"
+            },
+            {
+                "question": "How do you enable continuous collision detection for a RigidBody2D in Godot 4?",
+                "options": "A) Set 'continuous_cd' to true, B) Enable 'high_precision', C) Use 'set_detect_collisions()', D) Activate 'continuous_collision'",
+                "answer": "A"
+            },
+            {
+                "question": "Which signal is emitted by Area2D when another body enters it in Godot 4?",
+                "options": "A) body_entered, B) on_body_enter, C) body_enter, D) enter_body",
+                "answer": "A"
+            },
+            {
+                "question": "What property of a CharacterBody2D determines how it interacts with slopes in Godot 4?",
+                "options": "A) slope_slide, B) slide_slope, C) slope_stop, D) stop_on_slope",
+                "answer": "D"
+            },
+            {
+                "question": "Which property adjusts the air resistance of a RigidBody2D in Godot 4?",
+                "options": "A) air_friction, B) air_resist, C) linear_damp, D) drag",
+                "answer": "C"
+            },
+            {
+                "question": "What is the default value of the 'gravity_scale' property for a RigidBody2D in Godot 4?",
+                "options": "A) 0, B) 0.5, C) 1, D) 1.5",
+                "answer": "C"
+            },
+            {
+                "question": "How can you make a RigidBody2D kinematic at runtime in Godot 4?",
+                "options": "A) Set 'mode' to RigidBody2D.MODE_KINEMATIC, B) Call 'make_kinematic()', C) Change 'type' to 'Kinematic', D) Use 'set_kinematic()'",
+                "answer": "A"
+            }
+        ]
+    },
+    "godot 4 3d physics": {
+        "questions": [
+            {
+                "question": "What is the primary node used for 3D physics bodies in Godot 4?",
+                "options": "A) Node3D, B) PhysicsBody3D, C) Spatial, D) MeshInstance3D",
+                "answer": "B"
+            },
+            {
+                "question": "Which node is used to define a rigid body in Godot 4?",
+                "options": "A) RigidBody3D, B) StaticBody3D, C) KinematicBody3D, D) CollisionShape3D",
+                "answer": "A"
+            },
+            {
+                "question": "What node should be used to add a collision shape to a physics body in Godot 4?",
+                "options": "A) CollisionShape3D, B) CollisionPolygon3D, C) Shape3D, D) MeshInstance3D",
+                "answer": "A"
+            },
+            {
+                "question": "Which physics engine is the default in Godot 4?",
+                "options": "A) Bullet, B) GodotPhysics, C) PhysX, D) Havok",
+                "answer": "B"
+            },
+            {
+                "question": "What node is used for characters that need custom collision handling in Godot 4?",
+                "options": "A) RigidBody3D, B) StaticBody3D, C) CharacterBody3D, D) Area3D",
+                "answer": "C"
+            },
+            {
+                "question": "How can you enable continuous collision detection for fast-moving bodies in Godot 4?",
+                "options": "A) Set 'continuous_cd' property to true, B) Enable 'high_precision' mode, C) Use 'move_and_collide' method, D) Increase 'physics_fps'",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the Area3D node in Godot 4?",
+                "options": "A) To define the playable area, B) To detect and emit signals on entering or exiting objects, C) To apply global forces, D) To render 3D space",
+                "answer": "B"
+            },
+            {
+                "question": "Which function would you use to move a CharacterBody3D in Godot 4?",
+                "options": "A) translate(), B) move_and_slide(), C) apply_impulse(), D) set_position()",
+                "answer": "B"
+            },
+            {
+                "question": "What property of RigidBody3D would you modify to simulate lighter or heavier objects?",
+                "options": "A) mass, B) weight, C) density, D) gravity_scale",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, how do you apply a force to a RigidBody3D?",
+                "options": "A) apply_force(), B) add_force(), C) apply_impulse(), D) add_impulse()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the function of the RayCast3D node in Godot 4?",
+                "options": "A) To cast shadows, B) To emit signals, C) To detect objects along a path, D) To render laser effects",
+                "answer": "C"
+            },
+            {
+                "question": "Which property would you adjust on a RigidBody3D to make it respond to physics but not control it directly?",
+                "options": "A) mode, B) passive, C) kinematic, D) static",
+                "answer": "A"
+            },
+            {
+                "question": "What is the default collision layer for physics bodies in Godot 4?",
+                "options": "A) 0, B) 1, C) 2, D) 3",
+                "answer": "B"
+            },
+            {
+                "question": "What function would you use to detect if a CharacterBody3D is colliding with another body?",
+                "options": "A) is_colliding(), B) get_collider(), C) move_and_collide(), D) test_move()",
+                "answer": "C"
+            },
+            {
+                "question": "Which node can be used to create a physical environment that affects all bodies within it in Godot 4?",
+                "options": "A) WorldEnvironment, B) Environment, C) Area3D, D) PhysicsMaterial",
+                "answer": "C"
+            },
+            {
+                "question": "What is the purpose of the CollisionLayer property in Godot 4?",
+                "options": "A) To define rendering layers, B) To set physics interaction layers, C) To organize the scene tree, D) To create visual effects",
+                "answer": "B"
+            },
+            {
+                "question": "How can you simulate buoyancy in water for a RigidBody3D?",
+                "options": "A) Adjust the 'damping' property, B) Use an Area3D with a water material, C) Apply an upward force based on volume, D) Increase 'gravity_scale'",
+                "answer": "C"
+            },
+            {
+                "question": "What is the function of the 'collision_mask' property in Godot 4?",
+                "options": "A) It masks the body from rendering, B) It determines which layers the body will collide with, C) It creates a mask effect in shaders, D) It filters post-processing effects",
+                "answer": "B"
+            },
+            {
+                "question": "Which node would you use to simulate a vehicle's physics in Godot 4?",
+                "options": "A) VehicleBody3D, B) RigidBody3D, C) KinematicBody3D, D) StaticBody3D",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, how do you make a physics body ignore all collisions?",
+                "options": "A) Set 'collision_layer' to 0, B) Set all collision mask layers to 0, C) Disable the 'collidable' property, D) Remove all collision shapes",
+                "answer": "B"
+            },
+            {
+                "question": "What property would you adjust to change the friction of a RigidBody3D?",
+                "options": "A) roughness, B) slipperiness, C) friction, D) bounciness",
+                "answer": "C"
+            },
+            {
+                "question": "How do you enable sleeping for a RigidBody3D when it's not moving?",
+                "options": "A) Set 'can_sleep' to true, B) Enable 'sleeping', C) Use 'sleepy' mode, D) Decrease 'activity'",
+                "answer": "A"
+            },
+            {
+                "question": "What is the role of the PhysicsMaterial in Godot 4?",
+                "options": "A) To define the visual properties of a physics body, B) To set the physical properties like friction and bounce, C) To create materials for shaders, D) To define environmental effects",
+                "answer": "B"
+            },
+            {
+                "question": "What is the effect of increasing the 'bounce' property on a PhysicsMaterial?",
+                "options": "A) Increases the light reflection, B) Increases the body's velocity when colliding, C) Makes the body more elastic, D) None of the above",
+                "answer": "C"
+            }
+        ]
+    },
+    "godot 4 scene management questions": {
+        "questions": [
+            {
+                "question": "Which function in Godot 4 is used to change the current scene?",
+                "options": "A. change_scene(), B. switch_scene(), C. set_scene(), D. get_tree().change_scene()",
+                "answer": "D"
+            },
+            {
+                "question": "What function is used to asynchronously load a scene in Godot 4?",
+                "options": "A. load(), B. preload(), C. ResourceLoader.load_threaded_request('SCENE_PATH'), D. get_tree().change_scene_to()",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct way to instance a scene from a script in Godot 4?",
+                "options": "A. new(), B. preload('SCENE_PATH').instance(), C. Instance(), D. create()",
+                "answer": "B"
+            },
+            {
+                "question": "Which node function is used to add an instanced scene to the active scene tree in Godot 4?",
+                "options": "A. add_child(), B. append_child(), C. attach_child(), D. insert_child()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you remove a node from the scene tree in Godot 4?",
+                "options": "A. remove_child(), B. delete_child(), C. detach_child(), D. erase_child()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'owner' property in nodes when instancing scenes in Godot 4?",
+                "options": "A. Determines who can modify the node, B. Sets the node that will save this node when saving the scene, C. Identifies the creator of the node, D. Specifies the inheritance of the node",
+                "answer": "B"
+            },
+            {
+                "question": "Which function is used to queue a node for deletion in Godot 4?",
+                "options": "A. queue_free(), B. delete_later(), C. remove_later(), D. free()",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, what is the primary benefit of using 'autoload' for a scene?",
+                "options": "A. Increases loading speed, B. Automatically loads with every scene, C. Reduces memory usage, D. Enhances graphics",
+                "answer": "B"
+            },
+            {
+                "question": "What is the correct way to retrieve the root node of the current scene in Godot 4?",
+                "options": "A. get_root(), B. get_tree().root, C. get_base(), D. get_tree().get_base()",
+                "answer": "B"
+            },
+            {
+                "question": "Which method in Godot 4 is used to perform a safe cast on a loaded scene to ensure it is of a certain type?",
+                "options": "A. cast(), B. as, C. is(), D. type()",
+                "answer": "B"
+            },
+            {
+                "question": "What is the function to get the current scene in Godot 4?",
+                "options": "A. get_tree().get_current_scene(), B. get_tree().current_scene, C. get_scene(), D. get_tree().get_scene()",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, which class should you extend to create a custom scene switcher?",
+                "options": "A. Node, B. Control, C. CanvasLayer, D. SceneSwitcher",
+                "answer": "A"
+            },
+            {
+                "question": "What is the best practice for managing multiple levels in a game using Godot 4?",
+                "options": "A. Using a single scene and hiding/showing parts, B. Using multiple scenes and switching between them, C. Using a single Control node with scripts, D. Using multiple CanvasLayers",
+                "answer": "B"
+            },
+            {
+                "question": "Which node in Godot 4 is best suited for overlay interfaces like HUDs in a managed scene environment?",
+                "options": "A. Node2D, B. Control, C. CanvasLayer, D. Panel",
+                "answer": "C"
+            },
+            {
+                "question": "How do you handle dependencies when asynchronously loading scenes in Godot 4?",
+                "options": "A. They are automatically managed, B. Manually preload dependencies, C. Use signals to load dependencies, D. Dependencies are not supported with asynchronous loading",
+                "answer": "A"
+            },
+            {
+                "question": "What is the primary function of the 'groups' feature in scene management in Godot 4?",
+                "options": "A. Organizing nodes into layers, B. Applying effects to multiple nodes, C. Managing nodes collectively, D. Setting physics properties",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, how can you save the state of a scene before switching to another?",
+                "options": "A. Using the save() function, B. By serializing the scene to a file, C. Using a Singleton to store state, D. B and C",
+                "answer": "D"
+            },
+            {
+                "question": "What is the recommended way to handle large game worlds in Godot 4?",
+                "options": "A. Using multiple small scenes, B. Using a single large scene, C. Using GridMaps, D. Using Streaming",
+                "answer": "A"
+            },
+            {
+                "question": "Which feature in Godot 4 helps in debugging scene loading issues?",
+                "options": "A. Debugger, B. Output log, C. Scene debugger, D. Profiler",
+                "answer": "C"
+            },
+            {
+                "question": "How can you optimize scene loading times in Godot 4 for a better user experience?",
+                "options": "A. Using threads, B. Preloading scenes, C. Asynchronous loading, D. All of the above",
+                "answer": "D"
+            },
+            {
+                "question": "In Godot 4, what is the role of the 'MultiplayerAPI' in scene management?",
+                "options": "A. It is not related to scene management, B. It synchronizes scene changes across networks, C. It loads scenes based on player choices, D. It manages scene resources for multiplayer games",
+                "answer": "B"
+            },
+            {
+                "question": "What is the best way to manage different game states like 'Menu', 'Game', 'Pause' in Godot 4?",
+                "options": "A. Using different scripts, B. Using State Machine, C. Using different nodes, D. Using autoloads for each state",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, how do you ensure that a node and its children are properly cleaned up when switching scenes?",
+                "options": "A. By calling free() on the node, B. By using queue_free() on the node, C. Nodes are automatically cleaned up, D. By manually removing each child",
+                "answer": "B"
+            }
+        ]
+    },
+    "godot 4 scripting practices": {
+        "questions": [
+            {
+                "question": "In Godot 4, which method is used to print output for debugging purposes?",
+                "options": "A) print_debug(), B) print(), C) debug_log(), D) log_output()",
+                "answer": "B"
+            },
+            {
+                "question": "How do you correctly instantiate a scene in Godot 4?",
+                "options": "A) load('res://MyScene.tscn').instance(), B) new Scene('res://MyScene.tscn'), C) Scene.load('res://MyScene.tscn'), D) Instance('res://MyScene.tscn')",
+                "answer": "A"
+            },
+            {
+                "question": "Which keyword is used to define a class that extends another class in Godot 4?",
+                "options": "A) class, B) extends, C) inherit, D) subclass",
+                "answer": "B"
+            },
+            {
+                "question": "Which method is used to load a resource in Godot 4?",
+                "options": "A) Resource.load(), B) load_resource(), C) load(), D) get_resource()",
+                "answer": "C"
+            },
+            {
+                "question": "What is the correct way to write a for loop in Godot 4 GDScript?",
+                "options": "A) for i in range(0, 10):, B) for(int i=0; i<10; i++), C) for i from 0 to 10, D) loop i in 0..10",
+                "answer": "A"
+            },
+            {
+                "question": "How do you access the parent node in Godot 4 GDScript?",
+                "options": "A) get_parent(), B) parent(), C) super(), D) upper()",
+                "answer": "A"
+            },
+            {
+                "question": "How do you correctly interpolate strings in Godot 4 GDScript?",
+                "options": "A) 'Hello, %s' % name, B) 'Hello, {name}', C) f'Hello, {name}', D) 'Hello, ' + name",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to check if a key is pressed in Godot 4 GDScript?",
+                "options": "A) Input.is_action_pressed('ACTION'), B) Input.get_key_pressed('ui_right'), C) Input.check_key('ui_right'), D) is_key_pressed('ui_right')",
+                "answer": "A"
+            },
+            {
+                "question": "Which method is used to delay execution of a function in Godot 4 GDScript?",
+                "options": "A) delay_call(), B) yield(get_tree().create_timer(1), 'timeout'), C) await get_tree().create_timer(1).timeout, D) sleep(1)",
+                "answer": "C"
+            },
+            {
+                "question": "How do you correctly define a dictionary in Godot 4 GDScript?",
+                "options": "A) dict = {'key': 'value'}, B) dictionary = {'key': 'value'}, C) {'key': 'value'}, D) Dictionary('key', 'value')",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to define an array with initial values in Godot 4 GDScript?",
+                "options": "A) var my_array = [1, 2, 3], B) array(1, 2, 3), C) new Array(1, 2, 3), D) Array = {1, 2, 3}",
+                "answer": "A"
+            },
+            {
+                "question": "Which method is used to quit the application in Godot 4?",
+                "options": "A) quit(), B) exit(), C) close(), D) get_tree().quit()",
+                "answer": "D"
+            },
+            {
+                "question": "How do you correctly multiply a Vector3 by a scalar in Godot 4 GDScript?",
+                "options": "A) Vector3 * scalar, B) Vector3.multiply(scalar), C) Vector3.scale(scalar), D) multiply(Vector3, scalar)",
+                "answer": "A"
+            },
+            {
+                "question": "What is the correct way to access a child node by name in Godot 4 GDScript?",
+                "options": "A) get_node('ChildName'), B) find_node('ChildName'), C) child('ChildName'), D) Node.get('ChildName')",
+                "answer": "A"
+            },
+            {
+                "question": "Which method is used to interpolate between two colors in Godot 4 GDScript?",
+                "options": "A) Color.interpolate(), B) interpolate_color(), C) Color.lerp(), D) lerp_color()",
+                "answer": "C"
+            }
+        ]
+    },
+    "godot 4 animation system questions": {
+        "questions": [
+            {
+                "question": "What is the primary node used for creating animations in Godot 4?",
+                "options": "A) AnimationPlayer, B) AnimationTree, C) AnimationBlend, D) Tween",
+                "answer": "A"
+            },
+            {
+                "question": "Which node is used to manage complex animation states in Godot 4?",
+                "options": "A) AnimationPlayer, B) AnimationTree, C) AnimationBlend, D) Tween",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, which resource is used to define animation data?",
+                "options": "A) Animation, B) AnimationPack, C) AnimationResource, D) AnimationData",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'Tween' node in Godot 4?",
+                "options": "A) To handle physics animations, B) To interpolate properties over time, C) To manage animation layers, D) To blend animations",
+                "answer": "B"
+            },
+            {
+                "question": "What function is used to trigger an animation of an AnimationPlayer from code in Godot 4?",
+                "options": "A) play(), B) start(), C) animate(), D) run()",
+                "answer": "A"
+            },
+            {
+                "question": "Which feature in Godot 4 allows for blending animations together?",
+                "options": "A) AnimationPlayer, B) AnimationTree with BlendSpace2D, C) AnimationMixer, D) Tween",
+                "answer": "B"
+            },
+            {
+                "question": "What is the function of an AnimationTree in Godot 4?",
+                "options": "A) To sequence animations, B) To store animations, C) To manage complex animation states, D) To interpolate animations",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, how do you save an animation for reuse across different scenes?",
+                "options": "A) Save as Scene, B) Save as Resource, C) Export as File, D) Copy and Paste",
+                "answer": "B"
+            },
+            {
+                "question": "What is the role of 'Animation Layers' in Godot 4?",
+                "options": "A) To create 3D effects, B) To manage multiple animations simultaneously, C) To adjust animation speeds, D) To synchronize animations",
+                "answer": "B"
+            },
+            {
+                "question": "Which property would you adjust to change the playback speed of an animation in Godot 4?",
+                "options": "A) speed, B) duration, C) rate, D) tempo",
+                "answer": "A"
+            },
+            {
+                "question": "How can you loop an animation in Godot 4?",
+                "options": "A) Set the loop property to true, B) Use a while loop in code, C) Connect the animation end signal to its start, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "What is the function of 'BlendSpace2D' in Godot 4?",
+                "options": "A) To blend colors, B) To blend sounds, C) To blend two-dimensional animations, D) To create 2D physics simulations",
+                "answer": "C"
+            },
+            {
+                "question": "Which node would you use to handle procedural animation in Godot 4?",
+                "options": "A) AnimationPlayer, B) AnimationTree, C) Tween, D) ProceduralAnimation",
+                "answer": "C"
+            },
+            {
+                "question": "What is the purpose of 'Animation Tracks' in Godot 4?",
+                "options": "A) To add sound to animations, B) To control property values over time, C) To track animation performance, D) To synchronize multiple animations",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, how can you synchronize audio with animation?",
+                "options": "A) Using AudioStreamPlayer, B) Using AnimationPlayer with Audio Tracks, C) Using Tween, D) Using AudioSync",
+                "answer": "B"
+            },
+            {
+                "question": "What is the benefit of using 'Animation Layers' in Godot 4?",
+                "options": "A) Increased performance, B) Easier debugging, C) Flexibility in managing multiple animations, D) Reduced memory usage",
+                "answer": "C"
+            },
+            {
+                "question": "How do you add a new animation to an AnimationPlayer in Godot 4?",
+                "options": "A) Right-click and select 'Add Animation', B) Use the 'New Animation' button, C) Drag and drop an animation file, D) Write a script to generate it",
+                "answer": "B"
+            },
+            {
+                "question": "Which type of track would you add to an AnimationPlayer to animate a property in Godot 4?",
+                "options": "A) Property Track, B) Bezier Track, C) Call Function Track, D) Audio Track",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'Call Function Track' in an AnimationPlayer do in Godot 4?",
+                "options": "A) Calls a function at a specific point in the animation, B) Automatically generates function calls, C) Tracks function performance, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "How can you reverse an animation in Godot 4?",
+                "options": "A) Set the playback speed to a negative value, B) Use a reverse function, C) Play the animation from the last frame, D) Reverse the animation file",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of 'Seek' method in AnimationPlayer in Godot 4?",
+                "options": "A) To find a specific animation, B) To move the playhead to a specific time in the animation, C) To speed up the animation, D) To synchronize animations",
+                "answer": "B"
+            },
+            {
+                "question": "Which node should be used for animating UI elements in Godot 4?",
+                "options": "A) AnimationPlayer, B) Tween, C) UIAnimator, D) CanvasLayer",
+                "answer": "B"
+            },
+            {
+                "question": "What is the function of 'Animation Blend' in Godot 4?",
+                "options": "A) To mix audio tracks, B) To blend color properties, C) To blend multiple animations into one, D) To create blend shapes for 3D models",
+                "answer": "C"
+            },
+            {
+                "question": "How do you stop an animation in Godot 4?",
+                "options": "A) Call the .stop() method on the AnimationPlayer, B) Set the animation speed to 0, C) Remove the animation from the AnimationPlayer, D) Disable the AnimationPlayer node",
+                "answer": "A"
+            },
+            {
+                "question": "What is the advantage of using 'AnimationTree' with 'AnimationPlayer' in complex projects in Godot 4?",
+                "options": "A) Better performance, B) More intuitive interface, C) Supports more animation types, D) Allows for more complex state management",
+                "answer": "D"
+            },
+            {
+                "question": "In Godot 4, how can you blend two animations based on player input?",
+                "options": "A) Using an InputBlend node, B) Using BlendSpace2D in an AnimationTree, C) Using a script to adjust animation properties, D) Using the Tween node",
+                "answer": "B"
+            },
+            {
+                "question": "What is the purpose of 'AutoPlay' property in AnimationPlayer in Godot 4?",
+                "options": "A) To play animations based on game performance, B) To play an animation as soon as the scene loads, C) To automatically generate animations, D) To loop animations",
+                "answer": "B"
+            }
+        ]
+    },
+    "godot 4 2d math": {
+        "questions": [
+            {
+                "question": "What is the purpose of the Vector2 class in Godot 4?",
+                "options": "A) To manage 3D vectors, B) To manage 2D vectors, C) To handle color data, D) To store integer coordinates",
+                "answer": "B"
+            },
+            {
+                "question": "Which method would you use to calculate the distance between two Vector2 points in Godot 4?",
+                "options": "A) distance_to(), B) length(), C) distance_squared(), D) interpolate_with()",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'angle_to()' function of a Vector2 return in Godot 4?",
+                "options": "A) The length of the vector, B) The angle to another vector in radians, C) The distance to another vector, D) The dot product of two vectors",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, how can you normalize a Vector2?",
+                "options": "A) Using the normalized() method, B) By setting its length to 1, C) By dividing by its magnitude, D) All of the above",
+                "answer": "D"
+            },
+            {
+                "question": "What does the 'dot()' function do when used with two Vector2 objects in Godot 4?",
+                "options": "A) Calculates the cross product, B) Calculates the angle between vectors, C) Calculates the scalar projection, D) Calculates the scalar product",
+                "answer": "D"
+            },
+            {
+                "question": "What is the result of adding two Vector2 objects in Godot 4?",
+                "options": "A) A new Vector2 representing the sum of both vectors, B) The dot product of the vectors, C) The angle between the vectors, D) The distance between the vectors",
+                "answer": "A"
+            },
+            {
+                "question": "How do you calculate the magnitude (or length) of a Vector2 in Godot 4?",
+                "options": "A) Using the length() method, B) By summing the x and y components, C) By multiplying the vector by itself, D) By using the distance_to() method",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'cross()' function return when used with two Vector2 objects in Godot 4?",
+                "options": "A) A new Vector2, B) A scalar representing the z-component of the cross product, C) The dot product, D) None of the above",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, which method would you use to rotate a Vector2 by a given angle in radians?",
+                "options": "A) rotate(), B) rotated(), C) transform(), D) translate()",
+                "answer": "B"
+            },
+            {
+                "question": "What does the 'is_equal_approx()' function do when comparing two Vector2 objects in Godot 4?",
+                "options": "A) Checks if they are exactly the same, B) Checks if they are approximately equal, C) Checks if one is greater than the other, D) None of the above",
+                "answer": "B"
+            },
+            {
+                "question": "How can you set the x and y components of a Vector2 in Godot 4?",
+                "options": "A) Using the set() method, B) Directly accessing the x and y properties, C) Using the Vector2 constructor, D) B and C",
+                "answer": "D"
+            },
+            {
+                "question": "What does the 'reflect()' method do with a Vector2 in Godot 4?",
+                "options": "A) Inverts the vector's direction, B) Calculates the reflection based on a normal vector, C) Rotates the vector 180 degrees, D) None of the above",
+                "answer": "B"
+            },
+            {
+                "question": "Which method in Vector2 will return a vector with all components rounded to the nearest integer in Godot 4?",
+                "options": "A) round(), B) floored(), C) ceiled(), D) snapped()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'floor()' method in the Vector2 class in Godot 4?",
+                "options": "A) To round down the vector components to the nearest integer, B) To round up the vector components, C) To calculate the dot product, D) To normalize the vector",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, what does the 'aspect()' method of Vector2 return?",
+                "options": "A) The ratio of x to y, B) The ratio of y to x, C) The length of the vector, D) The angle of the vector",
+                "answer": "A"
+            },
+            {
+                "question": "How do you calculate the squared distance between two Vector2 points in Godot 4?",
+                "options": "A) Using the distance_squared() method, B) By squaring the result of distance_to(), C) By using the length_squared() method, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'slide()' method do with a Vector2 in Godot 4?",
+                "options": "A) Returns the result of sliding the vector along a plane defined by the given normal, B) Moves the vector towards another vector, C) Increases the vector's magnitude, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "Which method would you use to ensure a Vector2's length does not exceed a given value in Godot 4?",
+                "options": "A) clamp_length(), B) limit_length(), C) max_length(), D) restrict_length()",
+                "answer": "A"
+            },
+            {       
+                "question": "What does the 'angle()' method return for a Vector2 in Godot 4?",
+                "options": "A) The angle between the vector and the x-axis in radians, B) The angle between the vector and the y-axis in radians, C) The length of the vector, D) The dot product of the vector with the x-axis",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, what is the result of multiplying a Vector2 by a scalar?",
+                "options": "A) A new Vector2 scaled by the scalar, B) The dot product, C) The cross product, D) A new Vector3",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'length_squared()' method of a Vector2 return in Godot 4?",
+                "options": "A) The square of the vector's length, B) The square root of the vector's length, C) The distance to the origin, D) The angle of the vector",
+                "answer": "A"
+            },
+            {
+                "question": "How can you create a Vector2 pointing in the same direction but with a length of 1 in Godot 4?",
+                "options": "A) Using the normalize() method, B) Using the normalized() method, C) By setting its length property to 1, D) By dividing it by its current length",
+                "answer": "B"
+            },
+            {
+                "question": "What does the 'tangent()' method return for a Vector2 in Godot 4?",
+                "options": "A) A vector perpendicular to the original, B) The tangent of the angle of the vector, C) A scalar representing the tangent of the length, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "In Godot 4, how would you calculate the angle between two Vector2 vectors?",
+                "options": "A) Using the angle_to() method, B) By subtracting their angles, C) By using the dot product, D) By using the cross product",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'move_toward()' method do with a Vector2 in Godot 4?",
+                "options": "A) Moves the vector towards another vector by a fixed step, B) Rotates the vector towards another vector, C) Increases the vector's length towards a maximum, D) None of the above",
+                "answer": "A"
+            },
+            {
+                "question": "Which method would you use to get a Vector2 with both components set to their absolute values in Godot 4?",
+                "options": "A) abs(), B) absolute(), C) floor(), D) ceil()",
+                "answer": "A"
+            }
+        ]
+    },
+    "godot 4 3d math": {
+        "questions": [
+            {
+                "question": "What is the primary class used for 3D vector operations in Godot 4?",
+                "options": "A) Vector2, B) Vector3, C) Array, D) Dictionary",
+                "answer": "B"
+            },
+            {
+                "question": "Which method in the Vector3 class is used to calculate the cross product?",
+                "options": "A) cross(), B) dot(), C) length(), D) normalize()",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'dot()' function of the Vector3 class return?",
+                "options": "A) A perpendicular vector, B) Scalar projection, C) Vector magnitude, D) A normalized vector",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, which class is used to represent a transformation in 3D space?",
+                "options": "A) Transform2D, B) Basis, C) Transform3D, D) Quat",
+                "answer": "C"
+            },
+            {
+                "question": "What is the purpose of the 'normalized()' method in the Vector3 class?",
+                "options": "A) To return the maximum vector component, B) To set all components to zero, C) To create a vector of length 1, D) To invert the vector",
+                "answer": "C"
+            },
+            {
+                "question": "Which class is used to handle 3D rotations in Godot 4?",
+                "options": "A) Transform2D, B) Basis, C) Vector3, D) Quaternion",
+                "answer": "D"
+            },
+            {
+                "question": "How can you calculate the angle between two Vector3 objects in Godot 4?",
+                "options": "A) Using the 'angle_to()' method, B) By calculating the dot product and then the arccosine, C) By adding the vectors, D) Using the 'distance_to()' method",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'length()' method of the Vector3 class return?",
+                "options": "A) The number of elements in the vector, B) The sum of all vector components, C) The magnitude of the vector, D) The squared length of the vector",
+                "answer": "C"
+            },
+            {
+                "question": "Which method would you use to interpolate between two Vector3 objects in Godot 4?",
+                "options": "A) lerp(), B) slerp(), C) blend(), D) mix()",
+                "answer": "A"
+            },
+            {
+                "question": "What is the result of the 'inverse()' method when applied to a Transform3D object?",
+                "options": "A) It returns a mirrored transformation, B) It returns the original transformation, C) It returns the transformation with inverted translation and rotation, D) It returns the transformation with inverted scale",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, which method is used to rotate a Vector3 by a given angle around a specified axis?",
+                "options": "A) rotate(), B) rotate_around(), C) rotated(), D) rotate_basis()",
+                "answer": "C"
+            },
+            {
+                "question": "What does the 'slerp()' function do when applied to Quat objects?",
+                "options": "A) Performs a linear interpolation, B) Performs a spherical linear interpolation, C) Scales the quaternion, D) Normalizes the quaternion",
+                "answer": "B"
+            },
+            {
+                "question": "Which class represents a plane in 3D space in Godot 4?",
+                "options": "A) Plane, B) Mesh, C) SurfaceTool, D) Shape",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'Basis' class in Godot 4?",
+                "options": "A) To handle 2D transformations, B) To manage materials and shaders, C) To represent 3D rotation and scaling, D) To create 3D meshes",
+                "answer": "C"
+            },
+            {
+                "question": "How do you calculate the distance between two points represented by Vector3 objects?",
+                "options": "A) Using the 'distance_to()' method, B) By subtracting and normalizing the vectors, C) By adding the vectors, D) Using the 'cross()' method",
+                "answer": "A"
+            },
+            {
+                "question": "What is the result of multiplying a Transform3D object by a Vector3 object?",
+                "options": "A) A new Transform3D, B) A new Vector3 transformed by the Transform3D, C) A scalar value, D) An error",
+                "answer": "B"
+            },
+            {
+                "question": "Which method in the Transform3D class sets the rotation part of the transformation?",
+                "options": "A) set_rotation(), B) set_basis(), C) set_scale(), D) set_translation()",
+                "answer": "B"
+            },
+            {
+                "question": "What is the function of the 'look_at()' method in the Transform3D class?",
+                "options": "A) To scale the transformation, B) To rotate the transformation to face a target point, C) To translate the transformation, D) To invert the transformation",
+                "answer": "B"
+            },
+            {
+                "question": "Which method is used to find the projection of one Vector3 onto another?",
+                "options": "A) project(), B) cross(), C) dot(), D) slide()",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'is_normalized()' method of the Vector3 class check?",
+                "options": "A) If the vector is zero, B) If the vector's length is 1, C) If the vector components are integers, D) If the vector is perpendicular to another vector",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, what is the result of the 'inverse()' method when applied to a Basis object?",
+                "options": "A) It returns the basis with inverted rotation, B) It returns the basis with inverted scale, C) It returns the basis with both inverted rotation and scale, D) It returns the original basis",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'scale()' method of the Transform3D class affect?",
+                "options": "A) The translation components, B) The rotation components, C) The scale components, D) The basis components",
+                "answer": "C"
+            }
+        ]
+    },
+    "godot 4 shaders": {
+        "questions": [
+            {
+                "question": "What is the primary language used for writing shaders in Godot 4?",
+                "options": "A) GDScript, B) VisualScript, C) GLSL, D) Godot Shader",
+                "answer": "D"
+            },
+            {
+                "question": "Which of the following is NOT a type of shader in Godot 4?",
+                "options": "A) CanvasItem, B) Spatial, C) Particle, D) Audio",
+                "answer": "D"
+            },
+            {
+                "question": "What is the function used to define the behavior of pixels in a Spatial shader?",
+                "options": "A) vertex(), B) fragment(), C) light(), D) filter()",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4 shaders, which function is used to manipulate vertex positions?",
+                "options": "A) vertex(), B) fragment(), C) light(), D) adjust()",
+                "answer": "A"
+            },
+            {
+                "question": "Which built-in variable in Godot 4 shaders represents the UV coordinates of the texture?",
+                "options": "A) UV, B) FRAGCOORD, C) VERTEX, D) NORMAL",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'uniform' keyword in Godot 4 shaders?",
+                "options": "A) To create a constant value, B) To define a variable that can be changed from the Godot editor, C) To declare a function, D) To pass data into a shader that will be the same across the entire shader.",
+                "answer": "B"
+            },
+            {
+                "question": "Which of the following is a valid way to define a uniform color in a Godot 4 shader?",
+                "options": "A) uniform vec4 color = vec4(1.0);, B) uniform color myColor = #ffffff;, C) uniform vec4 color(1.0, 1.0, 1.0, 1.0);, D) uniform vec4 color = vec4(1.0, 1.0, 1.0, 1.0);",
+                "answer": "D"
+            },
+            {
+                "question": "In Godot 4, which shader type would you use to create effects on 2D sprites?",
+                "options": "A) CanvasItem, B) Spatial, C) Particle, D) Light",
+                "answer": "A"
+            },
+            {
+                "question": "Which of the following is NOT a built-in variable in Godot 4 fragment shaders?",
+                "options": "A) TIME, B) VIEWPORT_SIZE, C) COLOR, D) LIGHT_COLOR",
+                "answer": "D"
+            },
+            {
+                "question": "How do you access the alpha component of a color in Godot 4 shaders?",
+                "options": "A) color.a, B) color.alpha, C) color[3], D) color.A",
+                "answer": "A"
+            },
+            {
+                "question": "What is the output color variable in a Godot 4 fragment shader?",
+                "options": "A) COLOR, B) OUTPUT, C) FRAGCOLOR, D) RESULT",
+                "answer": "A"
+            },
+            {
+                "question": "Which keyword is used to specify that a shader parameter should not change during runtime in Godot 4?",
+                "options": "A) static, B) const, C) uniform, D) fixed",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, what is the purpose of the 'source_color' property in a shader uniform?",
+                "options": "A) To specify that the uniform is used as a color, B) To create a color picker in the material inspector, C) To define default color values, D) To enforce color values only",
+                "answer": "B"
+            },
+            {
+                "question": "Which function in Godot 4 shaders is typically used for custom lighting models in Spatial shaders?",
+                "options": "A) vertex(), B) fragment(), C) light(), D) custom_light()",
+                "answer": "C"
+            },
+            {
+                "question": "What is the role of the 'mix' function in Godot 4 shaders?",
+                "options": "A) To mix two colors based on a given ratio, B) To combine two textures, C) To generate random numbers, D) To calculate lighting",
+                "answer": "A"
+            },
+            {
+                "question": "Which of the following is a valid way to declare a shader in Godot 4?",
+                "options": "A) shader_type canvas_item;, B) shader_type 2d;, C) shader_type ui;, D) shader_type sprite;",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'discard' keyword do in a Godot 4 shader?",
+                "options": "A) It deletes the shader, B) It skips drawing the current pixel, C) It removes a uniform, D) It clears the screen",
+                "answer": "B"
+            },
+            {
+                "question": "In Godot 4, how do you specify that a shader file should use high precision calculations?",
+                "options": "A) highp float;, B) #pragma highp, C) high_precision on;, D) use_high_precision;",
+                "answer": "A"
+            },
+            {
+                "question": "What is the default shader type when creating a new shader in Godot 4?",
+                "options": "A) CanvasItem, B) Spatial, C) Particle, D) None",
+                "answer": "B"
+            },
+            {
+                "question": "Which of the following is a feature specific to Godot 4's shader system?",
+                "options": "A) Live shader editing, B) Cross-compilation to other languages, C) Automatic LOD management, D) Integration with external tools like Blender",
+                "answer": "A"
+            },
+            {
+                "question": "How can you access the depth buffer in a Godot 4 Spatial shader?",
+                "options": "A) hint_depth_texture, B) FRAGDEPTH, C) DEPTH, D) Z_BUFFER",
+                "answer": "A"
+            },
+            {
+                "question": "What is the purpose of the 'world_vertex_coords' variable in Godot 4 Spatial shaders?",
+                "options": "A) To provide the vertex coordinates in world space, B) To give the coordinates in the camera's view space, C) To return the vertex colors, D) To calculate the vertex normals",
+                "answer": "A"
+            },
+            {
+                "question": "Which of the following is true about the built-in 'UV' variable in Godot 4 shaders?",
+                "options": "A) It is used to get the UV coordinates for screen-space effects, B) It represents the UV coordinates of the texture, C) It is used to fetch the current color of the screen, D) It is only available in CanvasItem shaders",
+                "answer": "A"
+            },
+            {
+                "question": "What does the 'textureLod' function do in Godot 4 shaders?",
+                "options": "A) It loads a texture, B) It generates mipmaps, C) It samples a texture at a specific level of detail, D) It binds a texture to a uniform",
+                "answer": "C"
+            },
+            {
+                "question": "In Godot 4, which shader type would you use for full-screen post-processing effects?",
+                "options": "A) CanvasItem, B) Spatial, C) Particle, D) PostProcess",
+                "answer": "A"
+            }
+        ]
+    }
+}
